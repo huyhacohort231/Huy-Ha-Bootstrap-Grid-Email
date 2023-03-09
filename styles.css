@@ -14,12 +14,18 @@ body {
 }
 @media (max-width: 991px) { 
     #preview-section {
-        height: 35vh;
+        height: 400px;
         overflow-y: auto;
     }
 
     .full-email {
         max-height: 35vh;
+        overflow-y: auto;
+    }
+}
+@media (min-width: 992px) { 
+    #preview-section, #compose-section {
+        height: 100vh;
         overflow-y: auto;
     }
 }
