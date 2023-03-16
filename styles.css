@@ -25,7 +25,7 @@ body {
 }
 @media (min-width: 992px) { 
     #preview-section, #compose-section {
-        height: 100vh;
+        height: calc(100vh - 56px);
         overflow-y: auto;
     }
 }
